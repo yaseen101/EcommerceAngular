@@ -21,8 +21,9 @@ export class LoginSignupService {
 
   userRegister(user_dto:any):Observable<any>{
     return this.api.get(
-      this.reg_url+'/user'+ user_dto)
+      this.reg_url+'/user'+ user_dto);
   }
+
   adminLogin(user_name:any,password:any):Observable<any>{
     return this.api.get(
       this.login_url+'/user?email='+ user_name +
