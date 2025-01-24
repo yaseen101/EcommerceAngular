@@ -1,17 +1,102 @@
 {
-    "posts":[{
+   "user":[
+    {
+    "name":"jhon",
+    "mobNumber":458875588,
+    "age":30,
+    "email":"jhon@gmail.com",
+    "password":"fhfba",
+    "address":{
+        "addline1":"stree1",
+        "addline2":"stree2",
+        "city":"kudligi",
+	    "state":"karanatka",
+        "zipCode":125487
+    },
+    "language":[
+        "English",
+        "Hindi",
+        "Urdu",
+        "Kannada"
+    ],
+    "gender":"male",
+    "aboutYou":"i am a programmer",
+    "uploadPhoto":"jhon.png",
+    "role":"admin",
+    "agreetc":true
+    }
+   ],
+   "Product":[
+    {
         "id":1,
-        "title":"Json server",
-        "author":"typicode"
-    }],
-    "comments":[{
+        "name":"jhon",
+        "uploadPhoto":"",
+        "productDesc":"",
+        "mrp":542,
+        "dp":250,
+        "status":"draft"
+    },
+    {
         "id":1,
-        "body":"simple comments",
-        "postId":1
-    }],
-    "profile":[{
+        "name":"jhon",
+        "uploadPhoto":"",
+        "productDesc":"",
+        "mrp":542,
+        "dp":250,
+        "status":"draft"
+    },
+    {
         "id":1,
-        "title":"profile ",
-        "author":"typicode"
-    }]
+        "name":"jhon",
+        "uploadPhoto":"",
+        "productDesc":"",
+        "mrp":542,
+        "dp":250,
+        "status":"draft"
+    },{
+        "id":1,
+        "name":"jhon",
+        "uploadPhoto":"",
+        "productDesc":"",
+        "mrp":542,
+        "dp":250,
+        "status":"draft"
+    },
+    {
+        "id":1,
+        "name":"jhon",
+        "uploadPhoto":"",
+        "productDesc":"",
+        "mrp":542,
+        "dp":250,
+        "status":"draft"
+    }
+   ],
+   "orders":[
+		{
+			"id":1 ,
+			"userid":3 ,
+			"sellerid":2 ,
+			"product":{
+				"id":1,
+                "name":"jhon",
+                "uploadPhoto":"",
+                "productDesc":"",
+                "mrp":542,
+                "dp":250,
+                "status":"draft"
+			},
+			"deliveryAddress":{
+				"id":0,
+				"addline1":"shivajinagar",
+				"addline2":"tany Road",
+				"city":"Bangalore",
+                "state":"karanatka",	
+                "zipCode":14221452			
+            },
+			"contact":586421782,
+			"dateTime":"01/25/5214"
+		}
+	]
+
 }
